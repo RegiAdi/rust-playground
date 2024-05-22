@@ -1,6 +1,7 @@
 // This is a comment
-// This is a comment
-// This is a comment
+/*
+    This is a comment
+*/
 
 // This is the main function
 fn main() {
