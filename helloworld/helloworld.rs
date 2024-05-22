@@ -8,23 +8,18 @@ fn main() {
     println!("1 Hello World!");
     println!("2 Hello World!");
     println!("3 Hello World!");
-    println!("4 Hello World!");
-    println!("5 Hello World!");
-    println!("6 Hello World!");
-    println!("7 Hello World!");
-    println!("8 Hello World!");
-    println!("9 Hello World!");
-    println!("10 Hello World!");
-    println!("11 Hello World!");
-    println!("12 Hello World!");
-    println!("13 Hello World!");
-    println!("14 Hello World!");
-    println!("15 Hello World!");
-    println!("16 Hello World!");
-    println!("17 Hello World!");
-    println!("18 Hello World!");
-    println!("19 Hello World!");
-    println!("20 Hello World!");
-    println!("21 Hello World!");
-    println!("22 Hello World!");
+
+    println!("{} days", 365);
+    println!("{} days, {} hours", 365, 24);
+    println!("{} days, {} hours, {} minutes", 365, 24, 60);
+
+    println!("{0}, this is {1}. {1}, this is {0}", "Foo", "Bar");
+    println!("{0} {0} {1} {1} {0} {0}", "Foo", "Bar");
+
+    println!(
+        "{subject} {verb} {object}",
+        object = "the lazy dog",
+        subject = "the quick brown fox",
+        verb = "jumps over"
+    );
 }
