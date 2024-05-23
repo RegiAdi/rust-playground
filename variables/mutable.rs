@@ -8,5 +8,9 @@ fn main() {
     println!("z: {}", z);
 
     x = 64;
-    println!("x: {}", x)
+    println!("x: {}", x);
+
+    // mismatched types, we're not allowed to mutate a variable's type
+    let mut spaces = "    ";
+    spaces = spaces.len();
 }
